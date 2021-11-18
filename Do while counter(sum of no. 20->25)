@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+ 	{
+	int number = 20;
+	int sum = 0;
+	do{
+		sum += number;
+		number++;
+	cout<<"sum is: "<<sum<<endl;
+	}
+	while(number<=25);
+return 0;
+}
